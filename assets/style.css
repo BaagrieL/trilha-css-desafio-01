@@ -96,7 +96,7 @@ section {
     font-size: 1.2rem;
     font-weight: bold;
     background-color: transparent;
-    border: 5px solid;
+    border: 2px solid;
     border-image: linear-gradient(var(--primary), var(--secondary-gradient));
     border-image-slice: 10;
     padding: 16px 32px;
@@ -160,10 +160,17 @@ footer {
     background-image: linear-gradient(#000, var(--primary-gradient));
     text-align: center;
     color: #fff;
+    border-top: 1px solid var(--primary);
+    padding: 80px 0 8px
+}
+
+footer .dio-logo {
+    width: 300px;
 }
 
 footer a {
     color: var(--primary);
+    font-weight: bold;
 }
 
 
