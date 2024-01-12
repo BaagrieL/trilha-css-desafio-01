@@ -101,6 +101,7 @@ section {
     border-image-slice: 10;
     padding: 16px 32px;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #course-content {
